@@ -75,7 +75,7 @@ for idx, filename in enumerate(image_files):
             mask=mask_bytes,
             prompt=prompt,
             n=N_SYNTHETIC,
-            size="1024x1024"
+            size="1024x1024",
             quality="high"  # <-- [KHÁC BIỆT DUY NHẤT so với code gốc]: thêm dòng này theo đúng mô tả Methods của bài báo
         )
 

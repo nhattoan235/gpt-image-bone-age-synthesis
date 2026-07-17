@@ -1,0 +1,25 @@
+# Phớt lờ thư mục dữ liệu nặng (tải trực tiếp trên Colab hoặc giữ local)
+data/
+lora_out/
+lora_out_FULL/
+*.zip
+*.tar.gz
+checkpoint-*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Môi trường ảo
+venv/
+env/
+.venv/
+
+# Hệ thống / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

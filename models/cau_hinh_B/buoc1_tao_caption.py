@@ -83,9 +83,9 @@ def main():
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
             n_ok += 1
 
-    print(f"✅ Đã ghi {n_ok} caption vào: {out_path}")
+    print(f"[OK] Da ghi {n_ok} caption vao: {out_path}")
     if n_missing:
-        print(f"⚠️ Bỏ qua {n_missing} dòng CSV vì không tìm thấy file ảnh tương ứng trong {args.image_dir}")
+        print(f"[WARN] Bo qua {n_missing} dong CSV vi khong tim thay file anh tuong ung trong {args.image_dir}")
 
 
 if __name__ == "__main__":
